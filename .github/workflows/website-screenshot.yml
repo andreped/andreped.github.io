@@ -1,0 +1,56 @@
+name: website-screenshot
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+
+    - name: Delete screenshot in remote
+      run: |
+        rm screenshot.png
+        git config --local user.email "some.bot@gmail.com"
+        git config --local user.name "[bot]"
+        git rm --cached screenshot.png
+        git add .
+        git commit -m "removed file temporarily"
+        ls -haltr
+
+    - name: Screenshot Website
+      uses: swinton/screenshot-website@v1.x
+      with:
+        source: https://andreped.github.io/
+        destination: screenshot.png
+
+    - name: Download artifact
+      uses: dawidd6/action-download-artifact@v2
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
+        workflow: website-screenshot.yml
+        workflow_conclusion: success
+        branch: master
+        event: push
+        name: screenshot
+        repo: andreped/andreped.github.io
+
+    - name: Commit files
+      run: |
+        ls -haltr
+        git add screenshot.png
+        git commit -m "Update snapshot of website [skip ci]" -a
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        force: false
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.master }}
