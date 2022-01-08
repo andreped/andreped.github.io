@@ -21,4 +21,4 @@ This thesis aims at contributing further towards the full automation of lung and
 
 The results showed that using smaller input volumes with batch size 2 gave higher accuracy than using larger input volumes with batch size 1. PyTorch and TensorFlow gave equally good Dice scores on the lung segmentation task, and PyTorch gave better training performance, but was slower during inference. Using mixed precision over full precision reduced the memory footprint by 40%, without reducing the accuracy. The PLS-Net used 30% less memory than the U-Net for the same input data and batch size, with a reduction of 0.3% in Dice score. For the lobe segmentation task, the PLS-Net gave a Dice score of 92.6% before post-processing, and 92.9% after. The lobe segmentation model performed equally well on data from another data set and the data used for training, but struggled on samples containing abnormalities.
 
-Supervised by David Bouget, André Pedersen, and Abdolreza S. Shahrebabaki
+Supervised by David Bouget, André Pedersen, and Ilangko Balasingham
