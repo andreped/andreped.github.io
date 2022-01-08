@@ -17,12 +17,12 @@ jobs:
 
     - name: Delete screenshot in remote
       run: |
-        #rm screenshot.png
+        rm screenshot.png
         git config --local user.email "some.bot@gmail.com"
         git config --local user.name "[bot]"
         git rm --cached screenshot.png
-        #git add .
-        #git commit -m "removed file temporarily"
+        git add .
+        git commit -m "removed file temporarily"
         ls -haltr
 
     - name: Screenshot Website
@@ -31,12 +31,23 @@ jobs:
         source: https://andreped.github.io/
         destination: screenshot.png
 
+    - name: Download artifact
+      uses: dawidd6/action-download-artifact@v2
+      continue-on-error: false
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
+        workflow: website-screenshot.yaml
+        workflow_conclusion: success
+        branch: master
+        event: push
+        name: screenshot
+        repo: andreped/andreped.github.io
+
     - name: Commit files
       run: |
         ls -haltr
-        #git rm --cached screenshot.png
-        #git add screenshot.png
-        #git commit -m "Update snapshot of website [skip ci]" -a
+        git add screenshot.png
+        git commit -m "Update snapshot of website [skip ci]" -a
 
     - name: Push changes
       uses: ad-m/github-push-action@master
