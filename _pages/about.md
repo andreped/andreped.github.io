@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Professor Brochs gt. 2</p>
+    <p>Professor Brochs gate 2</p>
     <p>7030 Trondheim</p>
     <p>Trøndelag, Norway</p>
 
