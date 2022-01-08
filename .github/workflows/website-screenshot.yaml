@@ -21,8 +21,8 @@ jobs:
         git config --local user.email "some.bot@gmail.com"
         git config --local user.name "[bot]"
         git rm --cached screenshot.png
-        git add .
-        git commit -m "removed file temporarily"
+        #git add .
+        #git commit -m "removed file temporarily"
         ls -haltr
 
     - name: Screenshot Website
