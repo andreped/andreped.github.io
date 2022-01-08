@@ -37,7 +37,7 @@ jobs:
       with:
         github_token: ${{secrets.GITHUB_TOKEN}}
         workflow: website-screenshot.yaml
-        workflow_conclusion: success
+        #workflow_conclusion: success
         branch: master
         event: push
         name: screenshot
