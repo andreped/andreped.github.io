@@ -33,6 +33,7 @@ jobs:
 
     - name: Download artifact
       uses: dawidd6/action-download-artifact@v2
+      continue-on-error: true
       with:
         github_token: ${{secrets.GITHUB_TOKEN}}
         workflow: website-screenshot.yaml
