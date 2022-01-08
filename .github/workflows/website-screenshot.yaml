@@ -31,18 +31,6 @@ jobs:
         source: https://andreped.github.io/
         destination: screenshot.png
 
-    - name: Download artifact
-      uses: dawidd6/action-download-artifact@v2
-      continue-on-error: false
-      with:
-        github_token: ${{secrets.GITHUB_TOKEN}}
-        workflow: website-screenshot.yaml
-        workflow_conclusion: success
-        branch: master
-        event: push
-        name: screenshot
-        repo: andreped/andreped.github.io
-
     - name: Commit files
       run: |
         ls -haltr
