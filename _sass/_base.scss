@@ -93,6 +93,7 @@ blockquote {
 
 // Navbar customization
 
+/*
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
@@ -159,6 +160,7 @@ blockquote {
     }
   }
 }
+ */
 
 .navbar-toggler {
   .icon-bar {
@@ -259,6 +261,7 @@ footer.sticky-bottom {
 
 // Blog
 
+/*
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
@@ -316,6 +319,7 @@ footer.sticky-bottom {
     }
   }
 }
+ */
 
 
 // Distill
@@ -328,8 +332,10 @@ footer.sticky-bottom {
 }
 
 
+
 // Projects
 
+/*
 .projects {
   a {
     text-decoration: none;
@@ -374,6 +380,7 @@ footer.sticky-bottom {
     text-align: right;
   }
 }
+ */
 
 
 // Publications
