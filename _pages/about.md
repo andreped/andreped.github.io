@@ -2,23 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+<!--- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. --->
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Professor Brochs gt. 2</p>
+    <p>7030 Trondheim</p>
+    <p>Trøndelag, Norway</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am a PhD fellow at the [AICAN](https://aican.no/) research group at the Norwegian University of Science and Technology (NTNU). I am also a part-time employee at the [Medical Technology research group](https://www.sintef.no/en/expertise/sintef-technology-and-society/medical-technology/) at SINTEF. My current research interests include self and weakly-supervised learning for breast cancer prognostication.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I was a MSc student at the Arctic University of Norway (UiT), from August 2014 to June 2019, in applied physics and mathematics, specializing in machine learning and statistics. I completed a summer internship at SINTEF Digital in 2018, which I ended up collaborating with on my master's thesis. From January 2019, I worked part-time at SINTEF while finishing my MSc degree.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+The master's thesis revolved around developing a multi-potent computer-aided design for automatic cancer diagnostics. It was tested on multiple use cases for breast and lung cancer, both for radiology (CT) and histopathology (WSI). As a result, I started my PhD fellowship october 2019 in collaboration with the same people as for my master's thesis.
+
+In parallel to my PhD work, i have developed open, standalone softwares for C++ and Python, mainly using Qt/PySide. I have also published a lot of papers to high-impact scientific journals, on various topics related to medical image analysis and deep learning.
