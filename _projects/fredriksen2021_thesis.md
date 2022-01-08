@@ -13,6 +13,8 @@ category: thesis
     </div>
 </div>
 
+## Abstract
+
 Cancer is a leading cause of death in the developed world, and lung cancer is the most lethal. Clinical experts rely on advanced medical imaging techniques and visual inspection to detect lung tumors. Prognosis is highly dependent on the stage of cancer, and mortality can be reduced by early detection. Recent development in machine learning techniques shows promise for automating time-consuming tasks that are currently performed manually by trained experts.
 
 Lack of annotated data is one of the primary constraints in developing automatic methods for
@@ -28,3 +30,5 @@ dataset.
 
 Keywords: Lung Cancer, Deep Learning, Medical Image Segmentation, Mixed Supervision,
 Teacher-Student Framework
+
+Supervised by André Pedersen, Thomas Langø, Gabriel Kiss, and Frank Lindseth
