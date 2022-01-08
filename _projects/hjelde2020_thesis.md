@@ -4,16 +4,13 @@ title: Lungs and Lobes Semantic Segmentation in Mediastinal CT Scans Using 3D Co
 description: Master's thesis by Kristin Schive Hjelde
 img: assets/img/hjelde2020lobe.png
 importance: 1
-category: work
+category: thesis
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/hjelde2020lobe.png" title="fafa" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
 Pulmonary CT image analysis is a vital part in the assessment and treatment planning of different lung diseases. The method often requires the lungs to be separated from the surrounding structures, a process known as lung segmentation. Fissures divide the lungs into smaller compartments known as lobes, with their own independent vessels and airways system. Some diseases develop only in one of these lobes, and some treatments are performed on a lobar level. It is thus necessary to also segment the lobes in many cases. Doing lungs and lobes segmentation by hand is a tedious and time-consuming process, requiring expert radiologists. A variety of different methods to automate the segmentation process have been proposed throughout the years, but many of them struggle on lungs with high amounts of abnormalities, which often is the case for diseased lungs.

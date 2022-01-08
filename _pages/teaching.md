@@ -1,9 +1,11 @@
 ---
 layout: page
-permalink: /supervision/
 title: supervision
+permalink: /supervision/
 description: Collection of master's thesis projects I have (co-)supervised
 nav: true
+display_categories: [thesis]
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
