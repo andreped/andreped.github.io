@@ -20,7 +20,7 @@ jobs:
         rm screenshot.png
         git config --local user.email "some.bot@gmail.com"
         git config --local user.name "[bot]"
-        git rm --cached screenshot.png
+        #git rm --cached screenshot.png
         git add .
         git commit -m "removed file temporarily"
         ls -haltr
@@ -33,11 +33,11 @@ jobs:
 
     - name: Download artifact
       uses: dawidd6/action-download-artifact@v2
-      continue-on-error: true
+      continue-on-error: false
       with:
         github_token: ${{secrets.GITHUB_TOKEN}}
         workflow: website-screenshot.yaml
-        #workflow_conclusion: success
+        workflow_conclusion: success
         branch: master
         event: push
         name: screenshot
