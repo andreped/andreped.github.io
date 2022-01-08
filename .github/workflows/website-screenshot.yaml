@@ -34,6 +34,7 @@ jobs:
     - name: Commit files
       run: |
         ls -haltr
+        git rm --cached screenshot.png
         git add screenshot.png
         git commit -m "Update snapshot of website [skip ci]" -a
 
