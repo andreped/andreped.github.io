@@ -6,3 +6,4 @@ Personal website
 Automatically generated snapshot of the current state of the website (created after a successful commit and deployment).
 
 ---
+All credit to [alshedivat](https://github.com/alshedivat) for making such a great template!
