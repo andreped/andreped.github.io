@@ -15,7 +15,7 @@ children:
     - title: divider
     - title: LungTumorMask
       permalink: https://github.com/VemundFredriksen/LungTumorMask
-    -title: divider
+    - title: divider
     - title: torchstain
       permalink: https://github.com/EIDOSlab/torchstain
 ---
