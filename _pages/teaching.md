@@ -4,8 +4,8 @@ title: supervision
 permalink: /supervision/
 description: Collection of master's thesis projects I have (co-)supervised
 nav: true
-display_categories: [thesis]
-horizontal: false
+display_categories: [theses]
+horizontal: True
 ---
 
 <!-- pages/projects.md -->
