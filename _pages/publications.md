@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: selected publications
+permalink: /research/
+title: research
+description: selection of publications I have contributed to, either peer-reviewed or preprints.
 years: [2021, 2019]
 nav: true
 ---

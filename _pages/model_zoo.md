@@ -2,7 +2,7 @@
 layout: page
 title: model zoo
 permalink: /model-zoo/
-description: Collection of models I have made publicly available with pretrained weights
+description: Collection of models I have made publicly available with pretrained weights.
 nav: true
 display_categories: [Pathology, Radiology]
 horizontal: false
