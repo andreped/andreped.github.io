@@ -1,8 +1,8 @@
 ---
 layout: page
-title: supervision
-permalink: /supervision/
-description: Collection of master's thesis projects I have (co-)supervised
+title: teaching
+permalink: /teaching/
+description: Collection of master's theses I have (co-)supervised
 nav: true
 display_categories: [thesis]
 horizontal: false
