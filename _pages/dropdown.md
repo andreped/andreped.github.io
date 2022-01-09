@@ -12,4 +12,7 @@ children:
     - title: divider
     - title: livermask
       permalink: https://github.com/andreped/livermask
+    -title: divider
+    - title: torchstain
+      permalink: https://github.com/EIDOSlab/torchstain
 ---
