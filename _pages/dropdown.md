@@ -12,6 +12,9 @@ children:
     - title: divider
     - title: livermask
       permalink: https://github.com/andreped/livermask
+    - title: divider
+    - title: LungTumorMask
+      permalink: https://github.com/VemundFredriksen/LungTumorMask
     -title: divider
     - title: torchstain
       permalink: https://github.com/EIDOSlab/torchstain
