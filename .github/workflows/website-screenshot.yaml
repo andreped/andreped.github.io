@@ -23,7 +23,6 @@ jobs:
         git rm --cached screenshot.png
         git add .
         git commit -m "removed file temporarily"
-        ls -haltr
 
     - name: Screenshot Website
       uses: swinton/screenshot-website@v1.x
@@ -45,7 +44,6 @@ jobs:
 
     - name: Commit files
       run: |
-        ls -haltr
         git add screenshot.png
         git commit -m "Update snapshot of website [skip ci]" -a
 
