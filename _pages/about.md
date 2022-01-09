@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I am a PhD fellow at the [AICAN](https://aican.no/) research group at the Norwegian University of Science and Technology (NTNU). I am also a part-time employee at the [Medical Technology research group](https://www.sintef.no/en/expertise/sintef-technology-and-society/medical-technology/) at SINTEF. My current research interests include self and weakly-supervised learning for breast cancer prognostication.
+Hi! I am a PhD fellow at the [AICAN](https://www.ntnu.edu/ikom/aican#/view/about) research group at the Norwegian University of Science and Technology (NTNU). I am also a part-time employee at the [Medical Technology research group](https://www.sintef.no/en/expertise/sintef-technology-and-society/medical-technology/) at SINTEF. My current research interests include self and weakly-supervised learning for breast cancer prognostication.
 
 I was a MSc student at the Arctic University of Norway (UiT), from August 2014 to June 2019, in applied physics and mathematics, specializing in machine learning and statistics. I completed a summer internship at SINTEF Digital in 2018, which I ended up collaborating with on my master's thesis. From January 2019, I worked part-time at SINTEF while finishing my MSc degree (Civil Engineer).
 
