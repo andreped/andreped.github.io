@@ -3,7 +3,7 @@ layout: post
 title: Setting up multi-CUDA environments
 date: 2022-01-09 16:23:00
 description: a quick tutorial on how to setup multiple CUDA versions on the same Linux machine and toggle between them
-categories: sample-posts external-services
+categories: CUDA machine-learning TensorFlow PyTorch
 ---
 
 
