@@ -60,3 +60,7 @@ But of course, for all you lazy people that want an even easier solution, simply
 
 ## Concluding remarks
 And that's it. No magic really. I have done this for multiple projects with no real issue. But if you have some experience with docker, or are interesting in learning about it, I would recommend doing that instead, as working with docker images makes both training models easier, but it makes **deployment** of build models and solutions directly possible on new devices and across operating systems!
+
+Also note that multiple versions of PyTorch/TensorFlow might be compatible with multiple CUDA versions. Therefore, try that first! A compatility chart for TensorFlow-CUDA can be found [here](https://www.tensorflow.org/install/source#gpu).
+
+I hope you found this helpful :]
