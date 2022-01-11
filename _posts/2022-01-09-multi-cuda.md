@@ -5,6 +5,7 @@ date: 2022-01-08 16:30:00
 description: a quick tutorial on how to setup multiple CUDA versions on the same Linux machine and toggle between them.
 tags: CUDA PyTorch TensorFlow
 categories: machine-learning environments
+comments: true
 ---
 
 
