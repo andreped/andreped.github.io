@@ -14,7 +14,7 @@ code={https://github.com/VemundFredriksen/LungTumorMask},
 abstract={Purpose: Automating tasks such as lung tumor localization and segmentation in radiological images can free valuable time for radiologists and other clinical personnel. Convolutional neural networks may be suited for such tasks, but require substantial amounts of labeled data to train. Obtaining labeled data is a challenge, especially in the medical domain. Methods: This paper investigates the use of a teacher-student design to utilize datasets with different types of supervision to train an automatic model performing pulmonary tumor segmentation on computed tomography images. The framework consists of two models: the student that performs end-to-end automatic tumor segmentation and the teacher that supplies the student additional pseudo-annotated data during training. Results: Using only a small proportion of semantically labeled data and a large number of bounding box annotated data, we achieved competitive performance using a teacher-student design. Models trained on larger amounts of semantic annotations did not perform better than those trained on teacher-annotated data. Conclusion: Our results demonstrate the potential of utilizing teacher-student designs to reduce the annotation load, as less supervised annotation schemes may be performed, without any real degradation in segmentation accuracy.}
 }
 
-@misc{yan2021sepsis,
+@article{yan2021sepsis,
 abbr={IEEE-B},
 bibtex_show={true},
 title={Preliminary Processing and Analysis of an Adverse Event Dataset for Detecting Sepsis-Related Events},
@@ -50,6 +50,7 @@ title={Code-free development and deployment of deep segmentation models for digi
 author={Henrik S. Pettersen and Ilya Belevich and Elin S. Røyset and Melanie R. Simpson and Erik Smistad and Eija Jokitalo and Ingerid Reinertsen and Ingunn Bakke and André Pedersen},
 year={2022},
 month={01},
+journal={Frontiers in Medicine},
 pdf={https://arxiv.org/ftp/arxiv/papers/2111/2111.08430.pdf},
 code={https://github.com/andreped/NoCodeSeg},
 video={https://www.youtube.com/watch?v=9dTfUwnL6zY},
@@ -137,7 +138,7 @@ pdf={https://arxiv.org/pdf/2010.07002.pdf},
 abstract={Purpose: Automatic and consistent meningioma segmentation in T1-weighted magnetic resonance (MR) imaging volumes and corresponding volumetric assessment is of use for diagnosis, treatment planning, and tumor growth evaluation. We optimized the segmentation and processing speed performances using a large number of both surgically treated meningiomas and untreated meningiomas followed at the outpatient clinic. Approach: We studied two different three-dimensional (3D) neural network architectures: (i) a simple encoder-decoder similar to a 3D U-Net, and (ii) a lightweight multi-scale architecture [Pulmonary Lobe Segmentation Network (PLS-Net)]. In addition, we studied the impact of different training schemes. For the validation studies, we used 698 T1-weighted MR volumes from St. Olav University Hospital, Trondheim, Norway. The models were evaluated in terms of detection accuracy, segmentation accuracy, and training/inference speed. Results: While both architectures reached a similar Dice score of 70% on average, the PLS-Net was more accurate with an F1-score of up to 88%. The highest accuracy was achieved for the largest meningiomas. Speed-wise, the PLS-Net architecture tended to converge in about 50 h while 130 h were necessary for U-Net. Inference with PLS-Net takes less than a second on GPU and about 15 s on CPU. Conclusions: Overall, with the use of mixed precision training, it was possible to train competitive segmentation models in a relatively short amount of time using the lightweight PLS-Net architecture. In the future, the focus should be brought toward the segmentation of small meningiomas (<2 ml) to improve clinical relevance for automatic and early diagnosis and speed of growth estimates.}
 }
 
-@misc{bouget2021mediastinal,
+@article{bouget2021mediastinal,
 abbr={arXiv},
 bibtex_show={true},
 title={Mediastinal lymph nodes segmentation using 3D convolutional neural network ensembles and anatomical priors guiding}, 
