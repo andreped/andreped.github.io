@@ -10,7 +10,8 @@ month={12},
 pages={},
 title={Teacher-Student Architecture for Mixed Supervised Lung Tumor Segmentation},
 pdf={https://arxiv.org/pdf/2112.11541.pdf},
-code={https://github.com/VemundFredriksen/LungTumorMask}
+code={https://github.com/VemundFredriksen/LungTumorMask},
+abs={Purpose: Automating tasks such as lung tumor localization and segmentation in radiological images can free valuable time for radiologists and other clinical personnel. Convolutional neural networks may be suited for such tasks, but require substantial amounts of labeled data to train. Obtaining labeled data is a challenge, especially in the medical domain. Methods: This paper investigates the use of a teacher-student design to utilize datasets with different types of supervision to train an automatic model performing pulmonary tumor segmentation on computed tomography images. The framework consists of two models: the student that performs end-to-end automatic tumor segmentation and the teacher that supplies the student additional pseudo-annotated data during training. Results: Using only a small proportion of semantically labeled data and a large number of bounding box annotated data, we achieved competitive performance using a teacher-student design. Models trained on larger amounts of semantic annotations did not perform better than those trained on teacher-annotated data. Conclusion: Our results demonstrate the potential of utilizing teacher-student designs to reduce the annotation load, as less supervised annotation schemes may be performed, without any real degradation in segmentation accuracy.}
 }
 
 @misc{yan2021sepsis,
@@ -21,7 +22,11 @@ author={Yan, Melissa and Høvik, Lise Husby and Pedersen, André and Gustad, Lis
 journal={2021 IEEE International Conference on Bioinformatics and Biomedicine},
 year={2021},
 month={12},
-code={https://github.com/andreped/adverse-events}
+code={https://github.com/andreped/adverse-events},
+abs={Adverse event (AE) reports contain notes detailing procedural and guideline deviations, and unwanted incidents that can bring harm to patients. Available datasets mainly focus on vigilance or post-market surveillance of adverse drug reactions or
+medical device failures. The lack of clinical-related AE datasets makes it challenging to study healthcare-related AEs. AEs affect 10% of hospitalized patients, and almost half are preventable. Having an AE dataset can assist in identifying possible patient
+safety interventions and performing quality surveillance to lower AE rates. The free-text notes can provide insight into the cause of incidents and lead to better patient care. The objective of this study is to introduce a Norwegian AE dataset and present preliminary processing and analysis for sepsis-related events, specifically peripheral intravenous catheter-related bloodstream infections. Therefore, the methods focus on performing a domain analysis to prepare and better understand the data through screening, generating synthetic free-text notes, and annotating
+notes.}
 }
 
 @misc{pedersen2021hybrid,
@@ -34,21 +39,20 @@ eprint={2112.03455},
 archivePrefix={arXiv},
 primaryClass={eess.IV},
 pdf={https://arxiv.org/pdf/2112.03455.pdf},
-code={https://github.com/andreped/H2G-Net}
+code={https://github.com/andreped/H2G-Net},
+abs={Histopathological cancer diagnostics has become more complex, and the increasing number of biopsies is a challenge for most pathology laboratories. Thus, development of automatic methods for evaluation of histopathological cancer sections would be of value. In this study, we used 624 whole slide images (WSIs) of breast cancer from a Norwegian cohort. We propose a cascaded convolutional neural network design, called H2G-Net, for semantic segmentation of gigapixel histopathological images. The design involves a detection stage using a patch-wise method, and a refinement stage using a convolutional autoencoder. To validate the design, we conducted an ablation study to assess the impact of selected components in the pipeline on tumour segmentation. Guiding segmentation, using hierarchical sampling and deep heatmap refinement, proved to be beneficial when segmenting the histopathological images. We found a significant improvement when using a refinement network for postprocessing the generated tumour segmentation heatmaps. The overall best design achieved a Dice score of 0.933 on an independent test set of 90 WSIs. The design outperformed single-resolution approaches, such as cluster-guided, patch-wise high-resolution classification using MobileNetV2 (0.872) and a low-resolution U-Net (0.874). In addition, segmentation on a representative x400 WSI took ~58 seconds, using only the CPU. The findings demonstrate the potential of utilizing a refinement network to improve patch-wise predictions. The solution is efficient and does not require overlapping patch inference or ensembling. Furthermore, we showed that deep neural networks can be trained using a random sampling scheme that balances on multiple different labels simultaneously, without the need of storing patches on disk. Future work should involve more efficient patch generation and sampling, as well as improved clustering.}
 }
 
 @misc{pettersen2021codefree,
-abbr={arXiv},
+abbr={Fron.Med},
 bibtex_show={true},
 title={Code-free development and deployment of deep segmentation models for digital pathology}, 
-author={Henrik Sahlin Pettersen and Ilya Belevich and Elin Synnøve Røyset and Erik Smistad and Eija Jokitalo and Ingerid Reinertsen and Ingunn Bakke and André Pedersen},
-year={2021},
-eprint={2111.08430},
-archivePrefix={arXiv},
-primaryClass={q-bio.QM},
+author={Henrik S. Pettersen and Ilya Belevich and Elin S. Røyset and Melanie R. Simpson and Erik Smistad and Eija Jokitalo and Ingerid Reinertsen and Ingunn Bakke and André Pedersen},
+year={2022},
 pdf={https://arxiv.org/ftp/arxiv/papers/2111/2111.08430.pdf},
 code={https://github.com/andreped/NoCodeSeg},
-video={https://www.youtube.com/watch?v=9dTfUwnL6zY}
+video={https://www.youtube.com/watch?v=9dTfUwnL6zY},
+abs={Application of deep learning on histopathological whole slide images (WSIs) holds promise of improving diagnostic efficiency and reproducibility but is largely dependent on the ability to write computer code or purchase commercial solutions. We present a code-free pipeline utilizing free-to-use, open-source software (QuPath, DeepMIB, and FastPathology) for creating and deploying deep learning-based segmentation models for computational pathology. We demonstrate the pipeline on a use case of separating epithelium from stroma in colonic mucosa. A dataset of 251 annotated WSIs, comprising 140 hematoxylin-eosin (HE)-stained and 111 CD3 immunostained colon biopsy WSIs, were developed through active learning using the pipeline. On a hold-out test set of 36 HE and 21 CD3-stained WSIs a mean intersection over union score of 95.5% and 95.3% was achieved on epithelium segmentation. We demonstrate pathologist-level segmentation accuracy and clinical acceptable runtime performance and show that pathologists without programming experience can create near state-of-the-art segmentation solutions for histopathological WSIs using only free-to-use software. The study further demonstrates the strength of open-source solutions in its ability to create generalizable, open pipelines, of which trained models and predictions can seamlessly be exported in open formats and thereby used in external solutions. All scripts, trained models, a video tutorial, and the full dataset of 251 WSIs with ~31k epithelium annotations are made openly available at https://github.com/andreped/NoCodeSeg to accelerate research in the field.}
 }
 
 @article{bouget2021glioma,
