@@ -1,5 +1,9 @@
 
           <div class="publications">
-            <h2>selected publication</h2>
-            {% bibliography -f papers -q @*[selected=true]* %}
-          </div>
+            <h2>random publication</h2>
+        	{%- assign min = 1 -%}
+			{%- assign max = 13 -%}
+			{%- assign diff = max | minus: min -%}
+			{%- assign test = "now" | date: "%N" | modulo: diff | plus: min -%}
+			{% bibliography -f papers -q @*[rgvalue={{test}}]* with test %}
+          </div> 
