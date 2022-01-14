@@ -4,6 +4,6 @@
         	{%- assign min = 1 -%}
 			{%- assign max = 13 -%}
 			{%- assign diff = max | minus: min -%}
-			{%- assign test = "now" | date: "%N" | modulo: diff | plus: min -%}
-			{% bibliography -f papers -q @*[rgvalue={{test}}]* with test %}
+			{%- assign randint = "now" | date: "%N" | modulo: diff | plus: min | cache=false -%}
+			{% bibliography -f papers -q @*[rgvalue={{randint}}]* with randint %} 
           </div> 
