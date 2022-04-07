@@ -1,6 +1,26 @@
 ---
 ---
 
+@article{fredriksen2021teacherstudentlung,
+abbr={PLOS ONE},
+doi = {10.1371/journal.pone.0266147},
+bibtex_show={true},
+author = {Fredriksen, Vemund AND Sevle, Svein Ole M. AND Pedersen, André AND Langø, Thomas AND Kiss, Gabriel AND Lindseth, Frank},
+journal = {PLOS ONE},
+publisher = {Public Library of Science},
+title = {Teacher-student approach for lung tumor segmentation from mixed-supervised datasets},
+year = {2022},
+month = {04},
+volume = {17},
+url = {https://doi.org/10.1371/journal.pone.0266147},
+pages = {1-14},
+code={https://github.com/VemundFredriksen/LungTumorMask},
+pdf={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266147},
+abstract = {Purpose Cancer is among the leading causes of death in the developed world, and lung cancer is the most lethal type. Early detection is crucial for better prognosis, but can be resource intensive to achieve. Automating tasks such as lung tumor localization and segmentation in radiological images can free valuable time for radiologists and other clinical personnel. Convolutional neural networks may be suited for such tasks, but require substantial amounts of labeled data to train. Obtaining labeled data is a challenge, especially in the medical domain.   Methods This paper investigates the use of a teacher-student design to utilize datasets with different types of supervision to train an automatic model performing pulmonary tumor segmentation on computed tomography images. The framework consists of two models: the student that performs end-to-end automatic tumor segmentation and the teacher that supplies the student additional pseudo-annotated data during training.   Results Using only a small proportion of semantically labeled data and a large number of bounding box annotated data, we achieved competitive performance using a teacher-student design. Models trained on larger amounts of semantic annotations did not perform better than those trained on teacher-annotated data. Our model trained on a small number of semantically labeled data achieved a mean dice similarity coefficient of 71.0 on the MSD Lung dataset.   Conclusions Our results demonstrate the potential of utilizing teacher-student designs to reduce the annotation load, as less supervised annotation schemes may be performed, without any real degradation in segmentation accuracy.},
+number = {4},
+rgvalue={1}
+}
+
 @article{bouget2021mediastinal,
 abbr = {Comp.M.Bio},
 bibtex_show = {true},
@@ -20,26 +40,6 @@ URL = {https://doi.org/10.1080/21681163.2022.2043778},
 eprint = {https://doi.org/10.1080/21681163.2022.2043778},
 abstract={As lung cancer evolves, the presence of potentially malignant lymph nodes must be assessed to properly estimate disease progression and select the best treatment strategy. A method for accurate and automatic segmentation is hence decisive for quantitatively describing lymph nodes. In this study, the use of 3D convolutional neural networks, either through slab-wise schemes or the leveraging of downsampled entire volumes, is investigated. As lymph nodes have similar attenuation values to nearby anatomical structures, we use the knowledge of other organs as prior information to guide the segmentation. To assess the performances, a 5-fold cross-validation strategy was followed over a dataset of 120 contrast-enhanced CT volumes. For the 1178 lymph nodes with a short-axis diameter ≥10 mm, our best-performing approach reached a patient-wise recall of 92%, a false positive per patient ratio of 5 and a segmentation overlap of 80.5%. Fusing a slab-wise and a full volume approach within an ensemble scheme generated the best performances. The anatomical priors guiding strategy is promising, yet a larger set than four organs appears needed to generate an optimal benefit. A larger dataset is also mandatory given the wide range of expressions a lymph node can exhibit (i.e. shape, location and attenuation).},
 rgvalue = {10}
-}
-
-@article{fredriksen2021teacherstudentlung,
-abbr={PLOS ONE},
-doi = {10.1371/journal.pone.0266147},
-bibtex_show={true},
-author = {Fredriksen, Vemund AND Sevle, Svein Ole M. AND Pedersen, André AND Langø, Thomas AND Kiss, Gabriel AND Lindseth, Frank},
-journal = {PLOS ONE},
-publisher = {Public Library of Science},
-title = {Teacher-student approach for lung tumor segmentation from mixed-supervised datasets},
-year = {2022},
-month = {04},
-volume = {17},
-url = {https://doi.org/10.1371/journal.pone.0266147},
-pages = {1-14},
-code={https://github.com/VemundFredriksen/LungTumorMask},
-pdf={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266147},
-abstract = {Purpose Cancer is among the leading causes of death in the developed world, and lung cancer is the most lethal type. Early detection is crucial for better prognosis, but can be resource intensive to achieve. Automating tasks such as lung tumor localization and segmentation in radiological images can free valuable time for radiologists and other clinical personnel. Convolutional neural networks may be suited for such tasks, but require substantial amounts of labeled data to train. Obtaining labeled data is a challenge, especially in the medical domain.   Methods This paper investigates the use of a teacher-student design to utilize datasets with different types of supervision to train an automatic model performing pulmonary tumor segmentation on computed tomography images. The framework consists of two models: the student that performs end-to-end automatic tumor segmentation and the teacher that supplies the student additional pseudo-annotated data during training.   Results Using only a small proportion of semantically labeled data and a large number of bounding box annotated data, we achieved competitive performance using a teacher-student design. Models trained on larger amounts of semantic annotations did not perform better than those trained on teacher-annotated data. Our model trained on a small number of semantically labeled data achieved a mean dice similarity coefficient of 71.0 on the MSD Lung dataset.   Conclusions Our results demonstrate the potential of utilizing teacher-student designs to reduce the annotation load, as less supervised annotation schemes may be performed, without any real degradation in segmentation accuracy.},
-number = {4},
-rgvalue={1}
 }
 
 @article{yan2021sepsis,
