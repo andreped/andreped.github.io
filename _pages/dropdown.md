@@ -10,6 +10,9 @@ children:
     - title: GSI-RADS
       permalink: https://github.com/SINTEFMedtek/GSI-RADS
     - title: divider
+    - title: Raidionics
+      permalink: https://github.com/dbouget/Raidionics
+    - title: divider
     - title: livermask
       permalink: https://github.com/andreped/livermask
     - title: divider
@@ -18,4 +21,7 @@ children:
     - title: divider
     - title: torchstain
       permalink: https://github.com/EIDOSlab/torchstain
+    - title: divider
+    - title: fast-stain-normalization
+      permalink: https://github.com/andreped/fast-stain-normalization
 ---
