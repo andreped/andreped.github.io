@@ -16,6 +16,9 @@ children:
     - title: livermask
       permalink: https://github.com/andreped/livermask
     - title: divider
+    - title: GradientAccumulator
+      permalink: https://github.com/andreped/GradientAccumulator
+    - title: divider
     - title: LungTumorMask
       permalink: https://github.com/VemundFredriksen/LungTumorMask
     - title: divider
