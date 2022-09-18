@@ -44,9 +44,9 @@ let initTheme = (theme) => {
         theme = 'dark';
     }
   }
-  setTheme(theme); // theme   // force dark-theme to be default
+  setTheme(theme);
 }
 
 
-initTheme(localStorage.getItem("theme"));  //"theme"));
+initTheme(localStorage.getItem("theme"));
 
