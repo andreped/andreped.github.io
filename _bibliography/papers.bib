@@ -111,23 +111,6 @@ notes.},
 rgvalue={2}
 }
 
-@article{pedersen2021hybrid,
-abbr={arXiv},
-bibtex_show={true},
-title={Hybrid guiding: A multi-resolution refinement approach for semantic segmentation of gigapixel histopathological images}, 
-author={André Pedersen and Erik Smistad and Tor V. Rise and Vibeke G. Dale and Henrik S. Pettersen and Tor-Arne S. Nordmo and David Bouget and Ingerid Reinertsen and Marit Valla},
-journal={arXiv},
-year={2021},
-eprint={2112.03455},
-archivePrefix={arXiv},
-primaryClass={eess.IV},
-pdf={https://arxiv.org/pdf/2112.03455.pdf},
-code={https://github.com/andreped/H2G-Net},
-poster={https://github.com/andreped/andreped.github.io/blob/master/assets/posters/H2G_Net_HMN_conference_spring_2022.pdf},
-abstract={Histopathological cancer diagnostics has become more complex, and the increasing number of biopsies is a challenge for most pathology laboratories. Thus, development of automatic methods for evaluation of histopathological cancer sections would be of value. In this study, we used 624 whole slide images (WSIs) of breast cancer from a Norwegian cohort. We propose a cascaded convolutional neural network design, called H2G-Net, for semantic segmentation of gigapixel histopathological images. The design involves a detection stage using a patch-wise method, and a refinement stage using a convolutional autoencoder. To validate the design, we conducted an ablation study to assess the impact of selected components in the pipeline on tumour segmentation. Guiding segmentation, using hierarchical sampling and deep heatmap refinement, proved to be beneficial when segmenting the histopathological images. We found a significant improvement when using a refinement network for postprocessing the generated tumour segmentation heatmaps. The overall best design achieved a Dice score of 0.933 on an independent test set of 90 WSIs. The design outperformed single-resolution approaches, such as cluster-guided, patch-wise high-resolution classification using MobileNetV2 (0.872) and a low-resolution U-Net (0.874). In addition, segmentation on a representative x400 WSI took ~58 seconds, using only the CPU. The findings demonstrate the potential of utilizing a refinement network to improve patch-wise predictions. The solution is efficient and does not require overlapping patch inference or ensembling. Furthermore, we showed that deep neural networks can be trained using a random sampling scheme that balances on multiple different labels simultaneously, without the need of storing patches on disk. Future work should involve more efficient patch generation and sampling, as well as improved clustering.},
-rgvalue={3}
-}
-
 @article{pettersen2021codefree,
 abbr={Fron.Med},
 bibtex_show={true},
