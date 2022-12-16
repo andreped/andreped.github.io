@@ -51,8 +51,9 @@ and [natural language processing](https://ieeexplore.ieee.org/abstract/document/
 
 I have also written a [book chapter](https://link.springer.com/chapter/10.1007/978-3-030-98950-7_21)
 and acted as a reviewer for scientific journals, such as 
+[Medical Image Analysis](https://www.sciencedirect.com/journal/medical-image-analysis),
 [Nature Scientific Reports](https://www.nature.com/srep/),
 [Frontiers in Medicine](https://www.frontiersin.org/journals/medicine), and
 [IJCARS](https://www.springer.com/journal/11548).
-Lastly, I have (co-)supervised three Master's students working on semantic segmentation from
-3D medical images (CT).
+Lastly, I have (co-)supervised four Master's students working on both supervised/unsupervised semantic segmentation of
+3D medical images (CT) and histopathological images (WSIs).
