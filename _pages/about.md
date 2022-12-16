@@ -18,9 +18,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Hi! I am a PhD Candidate at the [AICAN](https://www.ntnu.edu/ikom/aican#/view/about) research group
-at the Norwegian University of Science and Technology (NTNU). I am also a Research Scientist at the 
-[Medical Technology](https://www.sintef.no/en/expertise/sintef-technology-and-society/medical-technology/)
-research group at SINTEF Digital part-time. My current research interests include self and
+at the Norwegian University of Science and Technology (NTNU). I am also a part-time Research Scientist at the 
+[Medical Image Analysis](https://www.sintef.no/en/expertise/sintef-technology-and-society/medical-technology/)
+research group at SINTEF. My current research interests include self and
 weakly-supervised learning for breast cancer prognostication.
 
 I was a MSc student at the Arctic University of Norway (UiT), from August 2014 to June 2019,
@@ -44,6 +44,7 @@ and published papers to high-impact scientific journals related to medical image
 deep learning (on topics such as
 [image classification](https://www.frontiersin.org/articles/10.3389/fmed.2022.971873/full),
 [semantic segmentation](https://www.frontiersin.org/articles/10.3389/fradi.2021.711514/full),
+[image registration](https://doi.org/10.48550/arXiv.2211.15717),
 [high-performance computing](https://ieeexplore.ieee.org/document/9399433),
 [semi-supervised learning](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266147),
 and [natural language processing](https://ieeexplore.ieee.org/abstract/document/9669410)).
