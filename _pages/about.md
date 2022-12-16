@@ -35,7 +35,7 @@ on multiple use cases for breast and lung cancer, both for radiology (CT) and hi
 As a result, I started my PhD fellowship October 2019 in collaboration with the same group as for
 my Master's thesis.
 
-In parallel to my PhD work, i have developed open, standalone softwares for C++ and Python, mainly
+In parallel to my PhD work, I have developed open, standalone softwares for C++ and Python, mainly
 using Qt/PySide (e.g., [FastPathology](https://github.com/AICAN-Research/FAST-Pathology) and
 [Raidionics](https://raidionics.github.io/)). I have published open command line tools
 (e.g. [livermask](https://github.com/andreped/livermask),
