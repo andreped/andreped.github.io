@@ -18,10 +18,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Hi! I am a PhD Candidate at the [AICAN](https://www.ntnu.edu/ikom/aican#/view/about) research group
-at the Norwegian University of Science and Technology (NTNU). I am also a part-time Research Scientist at the 
-[Medical Image Analysis](https://www.sintef.no/en/expertise/sintef-technology-and-society/medical-technology/)
-research group at SINTEF. My current research interests include self and
-weakly-supervised learning for breast cancer prognostication.
+at the Norwegian University of Science and Technology (NTNU), and part-time Research Scientist at SINTEF 
+[Medical Image Analysis](https://www.sintef.no/en/expertise/sintef-technology-and-society/medical-technology/). 
+I have strong experience in using machine learning and image analysis techniques for various medical applications,
+aiming to develop solutions that assist clinicians in their daily practice.
 
 I was a MSc student at the Arctic University of Norway (UiT), from August 2014 to June 2019,
 in applied physics and mathematics, specializing in machine learning and statistics. I completed
@@ -35,12 +35,12 @@ on multiple use cases for breast and lung cancer, both for radiology (CT) and hi
 As a result, I started my PhD fellowship October 2019 in collaboration with the same group as for
 my Master's thesis.
 
-In parallel to my PhD work, I have developed open, standalone softwares for C++ and Python, mainly
+In parallel to my PhD work, I have developed open, standalone software for C++ and Python, mainly
 using Qt/PySide (e.g., [FastPathology](https://github.com/AICAN-Research/FAST-Pathology) and
 [Raidionics](https://raidionics.github.io/)). I have published open command line tools
-(e.g. [livermask](https://github.com/andreped/livermask),
+(e.g. [livermask](https://github.com/andreped/livermask)), developed Python packages (e.g.,[gradient-accumulator](https://pypi.org/project/gradient-accumulator/0.2.2/),
 [torchstain](https://github.com/EIDOSLAB/torchstain)),
-and published papers to high-impact scientific journals related to medical image analysis and
+and published articles to high-impact scientific journals related to medical image analysis and
 deep learning (on topics such as
 [image classification](https://www.frontiersin.org/articles/10.3389/fmed.2022.971873/full),
 [semantic segmentation](https://www.frontiersin.org/articles/10.3389/fradi.2021.711514/full),
