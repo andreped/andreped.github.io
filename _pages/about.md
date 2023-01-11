@@ -54,6 +54,6 @@ and acted as a reviewer for scientific journals, such as
 [Medical Image Analysis](https://www.sciencedirect.com/journal/medical-image-analysis),
 [Nature Scientific Reports](https://www.nature.com/srep/),
 [Frontiers in Medicine](https://www.frontiersin.org/journals/medicine), and
-[IJCARS](https://www.springer.com/journal/11548).
+[BMC Medical Imaging](https://bmcmedimaging.biomedcentral.com).
 Lastly, I have (co-)supervised four Master's students working on both supervised/unsupervised semantic segmentation of
 3D medical images (CT) and histopathological images (WSIs).
