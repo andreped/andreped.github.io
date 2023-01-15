@@ -38,7 +38,7 @@ my Master's thesis.
 In parallel to my PhD work, I have developed open, standalone software for C++ and Python, mainly
 using Qt/PySide (e.g., [FastPathology](https://github.com/AICAN-Research/FAST-Pathology) and
 [Raidionics](https://raidionics.github.io/)). I have published open command line tools
-(e.g. [livermask](https://github.com/andreped/livermask)), developed Python packages (e.g.,[gradient-accumulator](https://pypi.org/project/gradient-accumulator/0.2.2/),
+(e.g., [livermask](https://github.com/andreped/livermask)), developed Python packages (e.g., [gradient-accumulator](https://pypi.org/project/gradient-accumulator/0.2.2/),
 [torchstain](https://github.com/EIDOSLAB/torchstain)),
 and published articles to high-impact scientific journals related to medical image analysis and
 deep learning (on topics such as
