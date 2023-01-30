@@ -27,4 +27,7 @@ children:
     - title: divider
     - title: fast-stain-normalization
       permalink: https://github.com/andreped/fast-stain-normalization
+    - title: divider
+    - title: DSS
+      permalink: https://github.com/andreped/DSS
 ---
