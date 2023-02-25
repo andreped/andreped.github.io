@@ -56,5 +56,5 @@ and acted as a reviewer for scientific journals, such as
 [Frontiers in Medicine](https://www.frontiersin.org/journals/medicine),
 [IJCARS](https://www.springer.com/journal/11548), and
 [BMC Medical Imaging](https://bmcmedimaging.biomedcentral.com).
-Lastly, I have (co-)supervised four Master's students working on both supervised/unsupervised semantic segmentation of
-3D medical images (CT) and histopathological images (WSIs).
+Lastly, I have (co-)supervised five Master's students working on using deep learning for supervised/semi-supervised segmentation of
+3D medical images (CT), unsupervised histopathological image representation, and bronchoscopy video navigation.
