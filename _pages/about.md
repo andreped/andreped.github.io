@@ -54,7 +54,8 @@ and acted as a reviewer for scientific journals, such as
 [Medical Image Analysis](https://www.sciencedirect.com/journal/medical-image-analysis),
 [Nature Scientific Reports](https://www.nature.com/srep/),
 [Frontiers in Medicine](https://www.frontiersin.org/journals/medicine),
-[IJCARS](https://www.springer.com/journal/11548), and
+[IJCARS](https://www.springer.com/journal/11548),
+[QIMS](https://qims.amegroups.com/), and
 [BMC Medical Imaging](https://bmcmedimaging.biomedcentral.com).
 Lastly, I have (co-)supervised five Master's students working on using deep learning for supervised/semi-supervised segmentation of
 3D medical images (CT), unsupervised histopathological image representation, and bronchoscopy video navigation.
