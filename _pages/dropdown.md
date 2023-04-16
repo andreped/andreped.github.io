@@ -7,6 +7,9 @@ children:
     - title: FastPathology
       permalink: https://github.com/AICAN-Research/FAST-Pathology
     - title: divider
+    - title: GradientAccumulator
+      permalink: https://github.com/andreped/GradientAccumulator
+    - title: divider
     - title: GSI-RADS
       permalink: https://github.com/SINTEFMedtek/GSI-RADS
     - title: divider
@@ -15,9 +18,6 @@ children:
     - title: divider
     - title: livermask
       permalink: https://github.com/andreped/livermask
-    - title: divider
-    - title: GradientAccumulator
-      permalink: https://github.com/andreped/GradientAccumulator
     - title: divider
     - title: LungTumorMask
       permalink: https://github.com/VemundFredriksen/LungTumorMask
@@ -30,4 +30,10 @@ children:
     - title: divider
     - title: DSS
       permalink: https://github.com/andreped/DSS
+    - title: divider
+    - title: super-ml-pets
+      permalink: https://github.com/andreped/super-ml-pets
+    - title: divider
+    - title: FP-dsa-plugin
+      permalink: https://github.com/andreped/FP-DSA-plugin
 ---
