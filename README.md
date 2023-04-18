@@ -1,6 +1,8 @@
 Personal website
 ===================================
 
+[![Website andreped.github.io](https://img.shields.io/website-up-down-green-red/https/andreped.github.io.svg)](https://andreped.github.io/)
+
 <img src="screenshot.png" width="100%" height="100%">
 
 Automatically generated snapshot of the current state of the website (created after a successful commit and deployment).
