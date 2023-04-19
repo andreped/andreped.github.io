@@ -25,20 +25,20 @@ aiming to develop solutions that assist clinicians in their daily practice.
 
 I was a MSc student at the Arctic University of Norway (UiT), from August 2014 to June 2019,
 in applied physics and mathematics, specializing in machine learning and statistics. I completed
-a summer internship at SINTEF Digital in 2018, which I ended up collaborating with on my master's
-thesis. From January 2019, I worked part-time at SINTEF while finishing my MSc degree
-(Sivilingeniør).
+a summer internship at SINTEF Digital in 2018, which I ended up collaborating with on my Master's
+thesis. From January 2019, I worked part-time at SINTEF while finishing my degree.
 
-The [Master's thesis](https://munin.uit.no/handle/10037/19673?locale-attribute=en) revolved around
+The [Master's thesis](https://munin.uit.no/handle/10037/19673?locale-attribute=en) focused on
 developing a multi-potent computer-aided design for automatic cancer diagnostics. It was tested
 on multiple use cases for breast and lung cancer, both for radiology (CT) and histopathology (WSI).
-As a result, I started my PhD fellowship October 2019 in collaboration with the same group as for
+As a result, I started my PhD fellowship October 2019 in collaboration with the same research group as for
 my Master's thesis.
 
 In parallel to my PhD work, I have developed open, standalone software for C++ and Python, mainly
-using Qt/PySide (e.g., [FastPathology](https://github.com/AICAN-Research/FAST-Pathology) and
+using Qt5/PySide6 (e.g., [FastPathology](https://github.com/AICAN-Research/FAST-Pathology) and
 [Raidionics](https://raidionics.github.io/)). I have published open command line tools
-(e.g., [livermask](https://github.com/andreped/livermask)), developed Python packages (e.g., [gradient-accumulator](https://pypi.org/project/gradient-accumulator/0.2.2/),
+(e.g., [livermask](https://github.com/andreped/livermask)), developed Python packages (e.g.,
+[gradient-accumulator](https://pypi.org/project/gradient-accumulator/0.2.2/),
 [torchstain](https://github.com/EIDOSLAB/torchstain)),
 and published articles to high-impact scientific journals related to medical image analysis and
 deep learning (on topics such as
