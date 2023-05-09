@@ -5,6 +5,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -14,15 +15,6 @@ jobs:
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-
-    - name: Delete screenshot in remote
-      run: |
-        rm screenshot.png
-        git config --local user.email "some.bot@gmail.com"
-        git config --local user.name "[bot]"
-        git rm --cached screenshot.png
-        git add .
-        git commit -m "removed file temporarily"
 
     - name: Screenshot Website
       uses: swinton/screenshot-website@v1.x
@@ -36,20 +28,22 @@ jobs:
       with:
         github_token: ${{secrets.GITHUB_TOKEN}}
         workflow: website-screenshot.yaml
-        workflow_conclusion: success
+        workflow_conclusion: ""
         branch: master
         event: push
         name: screenshot
         repo: andreped/andreped.github.io
 
-    - name: Commit files
-      run: |
-        git add screenshot.png
-        git commit -m "Update snapshot of website [skip ci]" -a
+    - name: Debug
+      run: ls -haltr
 
-    - name: Push changes
-      uses: ad-m/github-push-action@master
+    - name: Update screenshot in release
+      uses: svenstaro/upload-release-action@v2
       with:
-        force: false
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.master }}
+        repo_name: andreped/andreped.github.io
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ${{github.workspace}}/screenshot.png
+        asset_name: screenshot.png
+        file_glob: true
+        tag: screenshot-website
+        overwrite: true
