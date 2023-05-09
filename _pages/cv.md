@@ -5,7 +5,8 @@ permalink: /cv/
 nav: true
 ---
 
-<div class="cvtest">
+<!-- _pages/cv.md -->
+<div class="cv">
 
 <!-- Created by pdf2htmlEX (https://github.com/pdf2htmlEX/pdf2htmlEX) -->
 <html xmlns="http://www.w3.org/1999/xhtml">
