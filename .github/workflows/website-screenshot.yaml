@@ -36,6 +36,7 @@ jobs:
         event: push
         name: screenshot
         repo: andreped/andreped.github.io
+        search_artifacts: true
 
     - name: Debug
       run: ls -haltr
