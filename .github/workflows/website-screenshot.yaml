@@ -21,15 +21,12 @@ jobs:
       with:
         source: https://andreped.github.io/
         destination: screenshot.png
-    
-    - name: Debug after snapshot
-      run: ls -haltr
 
     - name: Download artifact
       uses: dawidd6/action-download-artifact@v2
       continue-on-error: false
       with:
-        github_token: ${{secrets.GITHUB_TOKEN}}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         workflow: website-screenshot.yaml
         workflow_conclusion: ""
         branch: master
@@ -37,9 +34,6 @@ jobs:
         name: screenshot
         repo: andreped/andreped.github.io
         search_artifacts: true
-
-    - name: Debug
-      run: ls -haltr
 
     - name: Update screenshot in release
       uses: svenstaro/upload-release-action@v2
