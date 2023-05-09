@@ -39,14 +39,3 @@ jobs:
 
     - name: Debug
       run: ls -haltr
-
-    - name: Update screenshot in release
-      uses: svenstaro/upload-release-action@v2
-      with:
-        repo_name: andreped/andreped.github.io
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ${{github.workspace}}/screenshot.png
-        asset_name: screenshot.png
-        file_glob: true
-        tag: screenshot-website
-        overwrite: true
