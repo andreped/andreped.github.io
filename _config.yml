@@ -83,8 +83,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # -----------------------------------------------------------------------------
 
 blog_name: #code🧠ai  # your blog must have a name for it to show up in the nav bar
-blog_description: a collection of notes from my work
-permalink: /blog/:year/:title/
+blog_description: #a collection of notes from my work
+permalink: #/blog/:year/:title/
 
 # Pagination
 pagination:
@@ -191,10 +191,10 @@ jekyll-archives:
     year: archive-year
     tag: archive-tag
     category: archive-category
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+  #permalinks:
+  #  year: '/blog/:year/'
+  #  tag: '/blog/tag/:name/'
+  #  category: '/blog/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
