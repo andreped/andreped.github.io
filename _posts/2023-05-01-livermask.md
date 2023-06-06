@@ -2,7 +2,7 @@
 layout: post
 title: livermask
 date: 2023-05-01 12:00:00
-description: Automatic liver parenchyma and vessel segmentation in CT using deep learning
+description: automatic liver parenchyma and vessel segmentation in CT using deep learning
 tags: liver parencyma ct demo huggingface spaces web app
 categories: machine-learning web-application
 comments: true
