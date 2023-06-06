@@ -8,9 +8,11 @@ categories: machine-learning web-application
 comments: true
 ---
 
+<div>
 <iframe
 	src="https://andreped-neukit.hf.space"
 	frameborder="0"
-	width="1200"
+	width="1600"
 	height="1000"
 ></iframe>
+</div>
