@@ -8,7 +8,7 @@ categories: machine-learning web-application
 comments: true
 ---
 
-<div>
+<div style="width:1600px; margin:0 auto;">
 <iframe
 	src="https://andreped-livermask.hf.space"
 	frameborder="0"
