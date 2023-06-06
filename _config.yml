@@ -84,7 +84,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 blog_name: web🧠demos #code🧠ai  # your blog must have a name for it to show up in the nav bar
 blog_description: a collection of web applications I have developed
-permalink: /apps/:year/:title/
+permalink: /demos/:year/:title/
 
 # Pagination
 pagination:
@@ -192,9 +192,9 @@ jekyll-archives:
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: '/apps/:year/'
-    tag: '/apps/tag/:name/'
-    category: '/apps/category/:name/'
+    year: '/demos/:year/'
+    tag: '/demos/tag/:name/'
+    category: '/demos/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

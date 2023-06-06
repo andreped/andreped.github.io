@@ -37,13 +37,13 @@ pagination:
         {{ post.date | date: '%B %-d, %Y' }}
       </p>
       <p class="post-tags">
-        <a href="{{ year | prepend: '/apps/' | prepend: site.baseurl}}">
+        <a href="{{ year | prepend: '/demos/' | prepend: site.baseurl}}">
           <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
 
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
-            <a href="{{ tag | prepend: '/apps/tag/' | prepend: site.baseurl}}">
+            <a href="{{ tag | prepend: '/demos/tag/' | prepend: site.baseurl}}">
               <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
               {% endfor %}
           {% endif %}
@@ -51,7 +51,7 @@ pagination:
           {% if categories != "" %}
           &nbsp; &middot; &nbsp;
             {% for category in post.categories %}
-            <a href="{{ category | prepend: '/apps/category/' | prepend: site.baseurl}}">
+            <a href="{{ category | prepend: '/demos/category/' | prepend: site.baseurl}}">
               <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
               {% endfor %}
           {% endif %}
