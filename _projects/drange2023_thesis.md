@@ -9,7 +9,7 @@ category: thesis
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fredriksen2021teacherstudent.png" title="fafa" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/drange2023simclr.png" title="fafa" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
