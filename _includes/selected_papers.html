@@ -2,7 +2,7 @@
           <div class="publications">
             <h2>today's publication</h2>
         	{%- assign min = 1 -%}
-			{%- assign max = 16 -%}
+			{%- assign max = 17 -%}
 			{%- assign diff = max | minus: min -%}
 			{%- assign randint = 'now' | date: '%s' | modulo: diff | plus: min -%}
 			{% bibliography -f papers -q @*[rgvalue={{randint}}]* with randint %} 
