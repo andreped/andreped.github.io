@@ -17,7 +17,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # 🧙 # 🔥 # the emoji used as the favicon  (https://emojipedia.org/fire/)
 url: https://andreped.github.io # the base hostname & protocol for your site
-baseurl: /apps/ # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -84,7 +84,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 blog_name: web🧠demos #code🧠ai  # your blog must have a name for it to show up in the nav bar
 blog_description: a collection of web applications I have developed
-permalink: /apps/:year/:title/
+permalink: /demos/:year/:title/
 
 # Pagination
 pagination:
@@ -192,9 +192,9 @@ jekyll-archives:
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: '/apps/:year/'
-    tag: '/apps/tag/:name/'
-    category: '/apps/category/:name/'
+    year: '/demos/:year/'
+    tag: '/demos/tag/:name/'
+    category: '/demos/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
