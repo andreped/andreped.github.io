@@ -2,14 +2,14 @@
 layout: page
 title: End-to-end Image-guided Airway Navigation using Neural Networks with Memory
 description: Master's thesis by Ingerid Kolderup
-img: assets/img/kolderup2023navigationnet.png
+img: assets/img/kolderup2023timedistributed.png
 importance: 1
 category: thesis
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/kolderup2023navigationnet.png" title="fafa" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/kolderup2023timedistributed.png" title="fafa" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
