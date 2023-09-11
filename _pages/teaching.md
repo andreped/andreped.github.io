@@ -5,7 +5,7 @@ permalink: /teaching/
 description: Collection of master's theses I have (co-)supervised
 nav: true
 display_categories: [thesis]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
