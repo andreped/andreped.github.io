@@ -9,7 +9,7 @@ comments: true
 ---
 
 <body>
-	<div style="width:1300px; margin:0 auto;">
+	<div style="width:100%; margin:0 auto;">
 	<iframe
 		src="https://andreped-livermask.hf.space"
 		frameborder="0"
