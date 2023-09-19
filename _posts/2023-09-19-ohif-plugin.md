@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ohif plugin
-date: 2023-19-09 08:00:00
+date: 2023-09-19 08:00:00
 description: adding AI support to OHIF for medical image analysis
 tags: ohif ct mri ai huggingface spaces web app
 categories: machine-learning web-application web-plugin
