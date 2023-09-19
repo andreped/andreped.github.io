@@ -9,12 +9,12 @@ comments: true
 ---
 
 <body>
-	<div style="width:100%;">
+	<div style="width:100%; margin-left:-250px;">
 	<iframe
         src="https://andreped-ohif4hf.hf.space"
         frameborder="0"
-        width="850"
-        height="450"
+        width="1300"
+        height="1000"
     ></iframe>
 	</div>
 </body>
