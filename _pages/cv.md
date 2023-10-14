@@ -5,12 +5,12 @@ permalink: /cv/
 nav: true
 ---
 
-</br>
-
-</br>
-
 <!-- _pages/cv.md -->
 <div class="cv">
+
+<br>
+<br>
+<br>
 
 
 <!-- Created by pdf2htmlEX (https://github.com/pdf2htmlEX/pdf2htmlEX) -->
