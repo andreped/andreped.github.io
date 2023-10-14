@@ -5,6 +5,10 @@ permalink: /cv/
 nav: true
 ---
 
+</br>
+
+</br>
+
 <!-- _pages/cv.md -->
 <div class="cv">
 
