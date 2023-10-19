@@ -17,11 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I am a PhD Candidate at the [AICAN](https://www.ntnu.edu/ikom/aican#/view/about) research group
-at the Norwegian University of Science and Technology (NTNU), and part-time Research Scientist at SINTEF 
-[Medical Image Analysis](https://www.sintef.no/en/expertise/sintef-technology-and-society/medical-technology/). 
-I have strong experience in using machine learning and image analysis techniques for various medical applications,
-aiming to develop solutions that assist clinicians in their daily practice.
+Hi! I'm a Senior Machine Learning Engineer at Sopra Steria. I have strong experience in using
+artificial intelligence and image analysis techniques for various medical applications, aiming to
+develop solutions that can assist clinicians in their daily practice.
 
 I was a MSc student at the Arctic University of Norway (UiT), from August 2014 to June 2019,
 in applied physics and mathematics, specializing in machine learning and statistics. I completed
@@ -31,8 +29,11 @@ thesis. From January 2019, I worked part-time at SINTEF while finishing my degre
 The [Master's thesis](https://munin.uit.no/handle/10037/19673?locale-attribute=en) focused on
 developing a multi-potent computer-aided design for automatic cancer diagnostics. It was tested
 on multiple use cases for breast and lung cancer, both for radiology (CT) and histopathology (WSI).
+
 As a result, I started my PhD fellowship October 2019 in collaboration with the same research group as for
-my Master's thesis.
+my Master's thesis. I was a PhD Candidate until 2019, where I published several papers on computational pathology,
+while I also held a position as a Research Scientist at the Medical Image Analysis group
+at SINTEF.
 
 In parallel to my PhD work, I have developed open, standalone software for C++ and Python, mainly
 using Qt5/PySide6 (e.g., [FastPathology](https://github.com/AICAN-Research/FAST-Pathology) and
@@ -57,5 +58,6 @@ and acted as a reviewer for scientific journals, such as
 [IJCARS](https://www.springer.com/journal/11548),
 [QIMS](https://qims.amegroups.com/), and
 [BMC Medical Imaging](https://bmcmedimaging.biomedcentral.com).
-Lastly, I have (co-)supervised five Master's students working on using deep learning for supervised/semi-supervised segmentation of
-3D medical images (CT), unsupervised histopathological image representation, and bronchoscopy video navigation.
+Lastly, I have (co-)supervised five Master's students working on using deep learning for
+supervised/semi-supervised segmentation of 3D medical images (CT), multilabel
+histopathology classification, and bronchoscopy video navigation.
