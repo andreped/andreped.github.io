@@ -3,7 +3,7 @@ Personal website
 
 [![Website andreped.github.io](https://img.shields.io/website-up-down-green-red/https/andreped.github.io.svg)](https://andreped.github.io/)
 
-<img src="https://github.com/andreped/andreped.github.io/releases/download/screenshot-website/screenshot.png" width="60%" height="60%">
+<img src="https://github.com/andreped/andreped.github.io/releases/download/screenshot-website/screenshot.png" width="80%" height="80%">
 
 ## Getting started
 
