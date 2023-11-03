@@ -1,6 +1,37 @@
 ---
 ---
 
+@misc{støverud2023aeropath,
+abbr={arXiv},
+title={AeroPath: An airway segmentation benchmark dataset with challenging pathology}, 
+author={Karen-Helene Støverud and David Bouget and Andre Pedersen and Håkon Olav Leira and Thomas Langø and Erlend Fagertun Hofstad},
+year={2023},
+eprint={2311.01138},
+archivePrefix={arXiv},
+primaryClass={cs.CV},
+rgbvalue={18},
+bibtex_show={true},
+code={https://github.com/raidionics/AeroPath},
+demo={https://huggingface.co/spaces/andreped/AeroPath},
+data={https://zenodo.org/records/10069289},
+abstract={To improve the prognosis of patients suffering from pulmonary diseases, such as lung cancer, early diagnosis and treatment are crucial. The analysis of CT images is invaluable for diagnosis, whereas high quality segmentation of the airway tree are required for intervention planning and live guidance during bronchoscopy. Recently, the Multi-domain Airway Tree Modeling (ATM'22) challenge released a large dataset, both enabling training of deep-learning based models and bringing substantial improvement of the state-of-the-art for the airway segmentation task. However, the ATM'22 dataset includes few patients with severe pathologies affecting the airway tree anatomy. In this study, we introduce a new public benchmark dataset (AeroPath), consisting of 27 CT images from patients with pathologies ranging from emphysema to large tumors, with corresponding trachea and bronchi annotations. Second, we present a multiscale fusion design for automatic airway segmentation. Models were trained on the ATM'22 dataset, tested on the AeroPath dataset, and further evaluated against competitive open-source methods. The same performance metrics as used in the ATM'22 challenge were used to benchmark the different considered approaches. Lastly, an open web application is developed, to easily test the proposed model on new data. The results demonstrated that our proposed architecture predicted topologically correct segmentations for all the patients included in the AeroPath dataset. The proposed method is robust and able to handle various anomalies, down to at least the fifth airway generation. In addition, the AeroPath dataset, featuring patients with challenging pathologies, will contribute to development of new state-of-the-art methods. The AeroPath dataset and the web application are made openly available.}
+}
+
+@article{helland2023postoperative,
+abbr={Sci.Rep}
+author = {Holden Helland, Ragnhild and Ferles, Alexandros and Pedersen, André and Kommers, Ivar and Ardon, Hilko and Barkhof, Frederik and Bello, Lorenzo and Berger, Mitchel and Dunås, Tora and Conti Nibali, Marco and Furtner, Julia and Hervey-Jumper, Shawn and Idema, Albert and Kiesel, Barbara and Tewari, Rishi and Mandonnet, Emmanuel and Müller, Domenique and Robe, Pierre and Rossi, Marco and Bouget, David},
+year = {2023},
+month = {05},
+pages = {},
+title = {Segmentation of glioblastomas in early post-operative multi-modal MRI with deep neural networks},
+doi = {10.21203/rs.3.rs-2943128/v1},
+rgvalue={17},
+bibtex_show={true},
+code={https://github.com/raidionics/Raidionics},
+pdf={https://arxiv.org/pdf/2304.08881},
+abstract={Extent of resection after surgery is one of the main prognostic factors for patients diagnosed with glioblastoma. To achieve this, accurate segmentation and classification of residual tumor from post-operative MR images is essential. The current standard method for estimating it is subject to high inter- and intra-rater variability, and an automated method for segmentation of residual tumor in early post-operative MRI could lead to a more accurate estimation of extent of resection. In this study, two state-of-the-art neural network architectures for pre-operative segmentation were trained for the task. The models were extensively validated on a multicenter dataset with nearly 1000 patients, from 12 hospitals in Europe and the United States. The best performance achieved was a 61% Dice score, and the best classification performance was about 80% balanced accuracy, with a demonstrated ability to generalize across hospitals. In addition, the segmentation performance of the best models was on par with human expert raters. The predicted segmentations can be used to accurately classify the patients into those with residual tumor, and those with gross total resection.},
+}
+
 @article{bouget2023raidionics,
 abbr={Sci.Rep},
 author = {David Bouget and Demah Alsinan and Valeria Gaitan and Ragnhild Holden Helland and André Pedersen and Ole Solheim and Ingerid Reinertsen},
@@ -11,28 +42,12 @@ title = {Raidionics: an open software for pre-and postoperative central nervous 
 volume = {13},
 journal = {Scientific Reports},
 doi = {10.1038/s41598-023-42048-7},
-rgvalue={17},
+rgvalue={16},
 bibtex_show={true},
 code={https://github.com/raidionics/Raidionics},
 pdf={https://arxiv.org/pdf/2305.14351.pdf},
 video={https://www.youtube.com/watch?v=cm9Mxg7Fuj8},
 abstract={For patients suffering from central nervous system tumors, prognosis estimation, treatment decisions, and postoperative assessments are made from the analysis of a set of magnetic resonance (MR) scans. Currently, the lack of open tools for standardized and automatic tumor segmentation and generation of clinical reports, incorporating relevant tumor characteristics, leads to potential risks from inherent decisions' subjectivity. To tackle this problem, the proposed Raidionics open-source software has been developed, offering both a user-friendly graphical user interface and stable processing backend. The software includes preoperative segmentation models for each of the most common tumor types (i.e., glioblastomas, lower grade gliomas, meningiomas, and metastases), together with one early postoperative glioblastoma segmentation model. Preoperative segmentation performances were quite homogeneous across the four different brain tumor types, with an average Dice around 85% and patient-wise recall and precision around 95%. Postoperatively, performances were lower with an average Dice of 41%. Overall, the generation of a standardized clinical report, including the tumor segmentation and features computation, requires about ten minutes on a regular laptop. The proposed Raidionics software is the first open solution enabling an easy use of state-of-the-art segmentation models for all major tumor types, including preoperative and postsurgical standardized reports.}
-}
-
-@article{helland2023postoperative,
-abbr={arXiv},
-title={Segmentation of glioblastomas in early post-operative multi-modal MRI with deep neural networks}, 
-author={Ragnhild Holden Helland and Alexandros Ferles and André Pedersen and Ivar Kommers and Hilko Ardon and Frederik Barkhof and Lorenzo Bello and Mitchel S. Berger and Tora Dunås and Marco Conti Nibali and Julia Furtner and Shawn Hervey-Jumper and Albert J. S. Idema and Barbara Kiesel and Rishi Nandoe Tewari and Emmanuel Mandonnet and Domenique M. J. Müller and Pierre A. Robe and Marco Rossi and Lisa M. Sagberg and Tommaso Sciortino and Tom Aalders and Michiel Wagemakers and Georg Widhalm and Marnix G. Witte and Aeilko H. Zwinderman and Paulina L. Majewska and Asgeir S. Jakola and Ole Solheim and Philip C. De Witt Hamer and Ingerid Reinertsen and Roelant S. Eijgelaar and David Bouget},
-year={2023},
-month={04},
-eprint={2304.08881},
-archivePrefix={arXiv},
-primaryClass={eess.IV},
-rgvalue={16},
-bibtex_show={true},
-code={https://github.com/raidionics/Raidionics},
-pdf={https://arxiv.org/pdf/2304.08881},
-abstract={Extent of resection after surgery is one of the main prognostic factors for patients diagnosed with glioblastoma. To achieve this, accurate segmentation and classification of residual tumor from post-operative MR images is essential. The current standard method for estimating it is subject to high inter- and intra-rater variability, and an automated method for segmentation of residual tumor in early post-operative MRI could lead to a more accurate estimation of extent of resection. In this study, two state-of-the-art neural network architectures for pre-operative segmentation were trained for the task. The models were extensively validated on a multicenter dataset with nearly 1000 patients, from 12 hospitals in Europe and the United States. The best performance achieved was a 61% Dice score, and the best classification performance was about 80% balanced accuracy, with a demonstrated ability to generalize across hospitals. In addition, the segmentation performance of the best models was on par with human expert raters. The predicted segmentations can be used to accurately classify the patients into those with residual tumor, and those with gross total resection.},
 }
 
 @article{perezdefrutos2022ddmr,
