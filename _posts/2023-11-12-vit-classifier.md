@@ -11,7 +11,7 @@ comments: true
 <body>
 	<div style="width:100%; margin-left:-250px;">
 	<iframe
-		src="https://andreped-/ViT-ImageClassifier.hf.space"
+		src="https://andreped-ViT-ImageClassifier.hf.space"
 		frameborder="0"
 		width="1300"
 		height="1000"
