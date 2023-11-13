@@ -2,7 +2,7 @@
 layout: post
 title: vit-explainer
 date: 2023-11-12 00:00:00
-description: Demonstrating Explainable AI with Vision Transformer in web app
+description: Demonstrating Explainable AI with Vision Transformer in web app (workshop INF-1600)
 tags: vision-transformer image classification explainable-ai web-app
 categories: machine-learning web-application
 comments: true

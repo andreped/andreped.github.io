@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ViT-ImageClassifier
+title: ViT Image Classifier
 date: 2023-11-12 00:00:00
 description: Demonstrating vision transformer for image classification in web app (workshop INF-1600)
 tags: vision-transformer image classification web-app
