@@ -1,6 +1,20 @@
 ---
 ---
 
+@article{hoibo2023immunohistochemistry,
+title={Immunohistochemistry guided segmentation of benign epithelial cells, in situ lesions, and invasive epithelial cells in breast cancer slides}, 
+author={Maren Høibø and André Pedersen and Vibeke Grotnes Dale and Sissel Marie Berget and Borgny Ytterhus and Cecilia Lindskog and Elisabeth Wik and Lars A. Akslen and Ingerid Reinertsen and Erik Smistad and Marit Valla},
+year={2023},
+month={11},
+eprint={2311.13261},
+archivePrefix={arXiv},
+primaryClass={eess.IV},
+rgbvalue={19},
+bibtex_show={true},
+code={https://github.com/AICAN-Research/breast-epithelium-segmentation},
+abstract={Digital pathology enables automatic analysis of histopathological sections using artificial intelligence (AI). Automatic evaluation could improve diagnostic efficiency and help find associations between morphological features and clinical outcome. For development of such prediction models, identifying invasive epithelial cells, and separating these from benign epithelial cells and in situ lesions would be the first step. In this study, we aimed to develop an AI model for segmentation of epithelial cells in sections from breast cancer. We generated epithelial ground truth masks by restaining hematoxylin and eosin (HE) sections with cytokeratin (CK) AE1/AE3, and by pathologists' annotations. HE/CK image pairs were used to train a convolutional neural network, and data augmentation was used to make the model more robust. Tissue microarrays (TMAs) from 839 patients, and whole slide images from two patients were used for training and evaluation of the models. The sections were derived from four cohorts of breast cancer patients. TMAs from 21 patients from a fifth cohort was used as a second test set. In quantitative evaluation, a mean Dice score of 0.70, 0.79, and 0.75 for invasive epithelial cells, benign epithelial cells, and in situ lesions, respectively, were achieved. In qualitative scoring (0-5) by pathologists, results were best for all epithelium and invasive epithelium, with scores of 4.7 and 4.4. Scores for benign epithelium and in situ lesions were 3.7 and 2.0. The proposed model segmented epithelial cells in HE stained breast cancer slides well, but further work is needed for accurate division between the classes. Immunohistochemistry, together with pathologists' annotations, enabled the creation of accurate ground truths. The model is made freely available in FastPathology and the code is available at this https://github.com/AICAN-Research/breast-epithelium-segmentation},
+}
+
 @article{støverud2023aeropath,
 abbr={arXiv},
 title={AeroPath: An airway segmentation benchmark dataset with challenging pathology}, 
