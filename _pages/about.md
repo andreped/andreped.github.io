@@ -31,7 +31,7 @@ developing a multi-potent computer-aided design for automatic cancer diagnostics
 on multiple use cases for breast and lung cancer, both for radiology (CT) and histopathology (WSI).
 
 As a result, I started my PhD fellowship October 2019 in collaboration with the same research group as for
-my Master's thesis. I was a PhD Candidate until 2019, where I published several papers on computational pathology,
+my Master's thesis. I was a PhD Candidate until 2023, where I published several papers on computational pathology,
 while I also held a position as a Research Scientist at the Medical Image Analysis group
 at SINTEF.
 
