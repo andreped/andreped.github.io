@@ -60,4 +60,4 @@ and acted as a reviewer for scientific journals, such as
 [BMC Medical Imaging](https://bmcmedimaging.biomedcentral.com).
 Lastly, I have (co-)supervised five Master's students working on using deep learning for
 supervised/semi-supervised segmentation of 3D medical images (CT), multilabel
-histopathology classification, and bronchoscopy video navigation.
+histopathology image classification, and bronchoscopy video navigation.
