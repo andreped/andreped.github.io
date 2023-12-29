@@ -26,14 +26,10 @@ in applied physics and mathematics, specializing in machine learning and statist
 a summer internship at SINTEF Digital in 2018, which I ended up collaborating with on my Master's
 thesis. From January 2019, I worked part-time at SINTEF while finishing my degree.
 
-The [Master's thesis](https://munin.uit.no/handle/10037/19673?locale-attribute=en) focused on
-developing a multi-potent computer-aided design for automatic cancer diagnostics. It was tested
-on multiple use cases for breast and lung cancer, both for radiology (CT) and histopathology (WSI).
-
-As a result, I started my PhD fellowship October 2019 in collaboration with the same research group as for
-my Master's thesis. I was a PhD Candidate until 2023, where I published several papers on computational pathology,
-while I also held a position as a Research Scientist at the Medical Image Analysis group
-at SINTEF.
+I started my PhD fellowship October 2019 in collaboration with the same research group as for
+my Master's thesis. I was a PhD Candidate until 2023, where I published several papers on 
+computational pathology, while I also held a position as a Research Scientist at the Medical
+Image Analysis group at SINTEF.
 
 In parallel to my PhD work, I have developed open, standalone software for C++ and Python, mainly
 using Qt5/PySide6 (e.g., [FastPathology](https://github.com/AICAN-Research/FAST-Pathology) and
