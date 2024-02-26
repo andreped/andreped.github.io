@@ -297,7 +297,7 @@ jquery:
 mathjax:
   version: "3.2.0"
 mansory:
-  version: "4.2.2"
+  version: "4"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
 mdb:
   version: "4.19.1"
