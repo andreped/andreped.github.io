@@ -31,8 +31,8 @@ jobs:
           ${{ runner.os }}-gems-
     - name: Install deps
       run: |
-        bundle clean --force
         gem install bundler
+        bundle update rake
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
         npm install -g mermaid.cli
