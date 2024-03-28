@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="5; url=https://andreped.dev/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>André  Pedersen | Page not found</title>
+    <title>André  Pedersen | Efficient Multilabel Tissue Segmentation of Histopathological Images using Hybrid Vision Transformer</title>
     <meta name="author" content="André  Pedersen" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Master's thesis by Markus Drange" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -31,7 +31,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://andreped.dev/404.html">
+    <link rel="canonical" href="https://andreped.dev/projects/2_drange2023_thesis/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -133,12 +133,45 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Efficient Multilabel Tissue Segmentation of Histopathological Images using Hybrid Vision Transformer</h1>
+            <p class="post-description">Master's thesis by Markus Drange</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://andreped.dev/">here</a>.</p>
+            <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/drange2023simclr-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/drange2023simclr-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/drange2023simclr-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/drange2023simclr.png" title="">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Histopathology is a central part of medicine, enabling clinicians to provide accurate diagnoses for diseases ranging from cancer to infections. The study of microscopic images is however tedious labour and necessitates extensive expertise. Automation and digitization of pathology workflows could enable higher throughput, less interoperator variation, and faster turnaround times.</p>
+
+<p>Ever since the breakthrough of convolutional neural networks (CNNs), the field of machine learning for medical image analysis has seen rapid development. The introduction of the new paradigm of transformer models led to further development of the field. This progress has led to researchers adopting both transformers and CNNs to different medical image modalities.</p>
+
+<p>This thesis aims to investigate both architectures applied to histopathological multilabel image classification, and explore how different training configurations affect their performance.</p>
+
+<p>The models will be trained using the Atlas of Digital Pathology dataset, consisting of 17 668 patches accompanied by labels describing the different tissue types present. The images are derived from 100 slides of human histopathological examinations of different diagnoses, obtained from several body parts, ranging from the brain to the kidney.</p>
+
+<p>This study presents three CNNs, one vision transformer and two hybrid models and compares their performance. In addition, different configurations of pre-training and data augmentation will be explored.</p>
+
+<p>The results find that a lightweight hybrid model, the MobileViT, combining properties from both CNNs and transformers, achieves the best results, after pretraining in a self-supervised manner. Said model obtained an F1-score of 0.835. The results also showed that without self-supervised pertaining, the ResNet50 and the ViT-16/B were the best-performing models with an F1-score of 0.821 and 0.822, respectively. It was demonstrated that using data augmentation techniques can improve the prediction performance of vision transformers for histopathological image classification, whereas color augmentations might degrade performance.</p>
+
+<p>Keywords: Digital Pathology, Deep Learning, Contrastive Learning, Multilabel, Tissue Segmentation, Semi-supervised Learning</p>
+
+<p>Supervised by André Pedersen, Frank Lindseth, Gabriel Kiss, and Thomas Langø</p>
 
           </article>
 
