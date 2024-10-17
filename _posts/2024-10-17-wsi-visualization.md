@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WSI Visualization Demo
-date: 2023-05-01 12:00:00
+date: 2024-10-17 12:00:00
 description: simple demonstration of visualization of whole slide images in the browser
 tags: pathology medicine image demo huggingface spaces web app
 categories: machine-learning web-application
