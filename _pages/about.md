@@ -30,7 +30,7 @@ thesis. From January 2019, I worked part-time at SINTEF while finishing my degre
 I started my PhD fellowship October 2019 in collaboration with the same research group as for
 my Master's thesis. I was a PhD Candidate until 2023, where I published several papers on 
 computational pathology, while I also held a position as a Research Scientist at the Medical
-Image Analysis group at SINTEF. I defended by PhD November 2024.
+Image Analysis group at SINTEF. I successfully defended my PhD November 2024.
 
 In parallel to my PhD work, I have developed open, standalone software for C++ and Python, mainly
 using Qt5/PySide6 (e.g., [FastPathology](https://github.com/AICAN-Research/FAST-Pathology) and
