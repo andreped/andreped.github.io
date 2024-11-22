@@ -19,7 +19,8 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I'm a Senior Machine Learning Engineer at Sopra Steria. I have strong experience in using
 artificial intelligence and image analysis techniques for various medical applications, aiming to
-develop solutions that can assist clinicians in their daily practice.
+develop solutions that can assist clinicians in their daily practice. Currently, my main focus is on
+using generative AI and large multimodal models to solve various problems in the industry.
 
 I was a MSc student at the Arctic University of Norway (UiT), from August 2014 to June 2019,
 in applied physics and mathematics, specializing in machine learning and statistics. I completed
@@ -29,7 +30,7 @@ thesis. From January 2019, I worked part-time at SINTEF while finishing my degre
 I started my PhD fellowship October 2019 in collaboration with the same research group as for
 my Master's thesis. I was a PhD Candidate until 2023, where I published several papers on 
 computational pathology, while I also held a position as a Research Scientist at the Medical
-Image Analysis group at SINTEF.
+Image Analysis group at SINTEF. I defended by PhD November 2024.
 
 In parallel to my PhD work, I have developed open, standalone software for C++ and Python, mainly
 using Qt5/PySide6 (e.g., [FastPathology](https://github.com/AICAN-Research/FAST-Pathology) and
