@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="5; url=https://andreped.dev/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>André  Pedersen | Page not found</title>
+    <title>André  Pedersen | End-to-end Image-guided Airway Navigation using Neural Networks with Memory</title>
     <meta name="author" content="André  Pedersen" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Master's thesis by Ingerid Kolderup" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -31,7 +31,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://andreped.dev/404.html">
+    <link rel="canonical" href="https://andreped.dev/projects/1_kolderup2023_thesis/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -133,12 +133,39 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">End-to-end Image-guided Airway Navigation using Neural Networks with Memory</h1>
+            <p class="post-description">Master's thesis by Ingerid Kolderup</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://andreped.dev/">here</a>.</p>
+            <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/kolderup2023timedistributed-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/kolderup2023timedistributed-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/kolderup2023timedistributed-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/kolderup2023timedistributed.png" title="">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Due to the complex airway anatomy, clinicians struggle with locating the position of the bronchoscope during bronchoscopy. Even though several navigation techniques have been employed, they come with a significant expense and the requirement of expensive instruments. Low-cost and reusable navigation systems would therefore be highly valuable for the clinicians.</p>
+
+<p>This thesis aims to address this obstacle by proposing an end-to-end image-guided airway navigation system that does not require any external equipment. For this purpose, a baseline model is designed to classify airway segments in synthetic video sequences from a three-dimensional model representing a lung phantom. The model contains a convolutional neural network for feature extraction and a classifier outputting predicted airway segments for the individual images in the sequence. Furthermore, the model was extended into NavigationNet, Multitask NavigationNet and Multicell and Multitask NavigationNet. They include a long short-term memory (LSTM) component for learning temporal dependencies of the extracted features from the convolutional neural network. The last two models feature an extra classification task of direction, and the latter model contains an additional LSTM component. A software prototype to enable real-time image-guiding using the trained models was also developed.</p>
+
+<p>The results show that NavigationNet achieved an F1 score of 0.583 in stateful evaluation when trained and validated with complete video sequences, which clearly outperformed the baseline model. Introducing the LSTM component thus had a positive impact on the classification performance, especially for the minority classes. However, in stateless evaluation, the baseline model was marginally superior than all models, with the exception of evaluation on complete video sequences. Adding direction or the extra LSTM component did not improve the performance of NavigationNet. When evaluated visually using the prototype, the model showed a slightly weaker performance than expected. Nevertheless, the proposed end-to-end navigation system shows promise in addressing the localization challenges in bronchoscopy.</p>
+
+<p>Keywords: Video Navigation, Deep Learning, Long-Short Time Memory, Convolutional Neural Networks, Bronchial classification, Supervised Learning</p>
+
+<p>Supervised by Frank Lindseth, Gabriel Kiss, André Pedersen, Ingrid Tveten, Erlend Fagertun Hofstad, and Thomas Langø</p>
 
           </article>
 
