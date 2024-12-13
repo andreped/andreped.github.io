@@ -21,14 +21,14 @@ jobs:
     - name: Read output
       id: read_output
       run: |
-        output=$(cat output.txt)
+        output=$(cat output.txt | base64)
         echo "::set-output name=stdout::$output"
 
     - name: Create comment with results
       uses: actions/github-script@v7
       with:
         script: |
-          const output = `${{ steps.read_output.outputs.stdout }}`;
+          const output = Buffer.from('${{ steps.read_output.outputs.stdout }}', 'base64').toString('utf-8');
           github.rest.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
