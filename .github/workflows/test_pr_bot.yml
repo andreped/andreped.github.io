@@ -20,7 +20,7 @@ jobs:
     - name: Read output
       id: read_output
       run: |
-        output=$(cat output.txt | base64)
+        output=$(cat output.txt | base64 | tr -d '\n')
         echo "::set-output name=stdout::$output"
 
     - name: Create comment with results
