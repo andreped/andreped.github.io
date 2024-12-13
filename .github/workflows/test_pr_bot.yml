@@ -11,6 +11,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Produce some stdout
+      run: echo -e "CPU Usage: 45%\nMemory Usage: 60%\nDisk Usage: 70%"
+
     - name: Create comment with results
       uses: actions/github-script@v7
       with:
