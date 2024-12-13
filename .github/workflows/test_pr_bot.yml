@@ -12,7 +12,6 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Produce some stdout
-      id: produce_output
       run: |
         echo "CPU Usage: 45%" > output.txt
         echo "Memory Usage: 60%" >> output.txt
