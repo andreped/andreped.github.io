@@ -1,0 +1,24 @@
+name: Test PR Bot
+
+on:
+  workflow_dispatch:
+  issue_comment:
+
+jobs:
+  test:
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'issue_comment' && github.event.issue.pull_request) }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Create comment with results
+      uses: actions/github-script@v4
+      with:
+        script: |
+          const output = `${{ steps.test_pr_bot.outputs.stdout }}`;
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `Some logged output:\n\`\`\`\n${output}\n\`\`\``
+          });
