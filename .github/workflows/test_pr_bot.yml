@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Create comment with results
-      uses: actions/github-script@v4
+      uses: actions/github-script@v5
       with:
         script: |
           const output = 'Some logged output';
