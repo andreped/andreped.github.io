@@ -15,7 +15,9 @@ jobs:
       uses: actions/github-script@v4
       with:
         script: |
-          const output = `${{ steps.test_pr_bot.outputs.stdout }}`;
+          const github = require('@actions/github');
+          const context = github.context;
+          const output = 'Some logged output';
           github.rest.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
