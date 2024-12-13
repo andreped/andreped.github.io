@@ -12,7 +12,10 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Produce some stdout
-      run: printf "CPU Usage: 45%\nMemory Usage: 60%\nDisk Usage: 70%\n"
+      run: |
+        echo "CPU Usage: 45%"
+        echo "Memory Usage: 60%"
+        echo "Disk Usage: 70%"
 
     - name: Create comment with results
       uses: actions/github-script@v7
