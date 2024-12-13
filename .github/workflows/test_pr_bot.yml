@@ -14,16 +14,21 @@ jobs:
     - name: Produce some stdout
       id: produce_output
       run: |
-        echo "CPU Usage: 45%"
-        echo "Memory Usage: 60%"
-        echo "Disk Usage: 70%"
-        echo "::set-output name=stdout::$(echo -e "CPU Usage: 45%\nMemory Usage: 60%\nDisk Usage: 70%")"
+        echo "CPU Usage: 45%" > output.txt
+        echo "Memory Usage: 60%" >> output.txt
+        echo "Disk Usage: 70%" >> output.txt
+
+    - name: Read output
+      id: read_output
+      run: |
+        output=$(cat output.txt)
+        echo "::set-output name=stdout::$output"
 
     - name: Create comment with results
       uses: actions/github-script@v7
       with:
         script: |
-          const output = `${{ steps.produce_output.outputs.stdout }}`;
+          const output = `${{ steps.read_output.outputs.stdout }}`;
           github.rest.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
