@@ -18,7 +18,7 @@ If you wish to develop locally, it is required that you have some tools installe
 * Bundler
 * Python
 * Pip
-
+    
 Then you can build the website by running these commands:
 
 ```
