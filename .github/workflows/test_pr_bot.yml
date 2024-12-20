@@ -14,7 +14,6 @@ jobs:
       id: comment-branch
 
     - uses: actions/checkout@v4
-      if: ${{ github.event.issue.pull_request }}
       with:
         ref: ${{ github.event_name == 'issue_comment' && steps.comment-branch.outputs.head_ref || 'master' }}
 
