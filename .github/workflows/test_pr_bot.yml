@@ -8,10 +8,16 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+    - uses: xt0rted/pull-request-comment-branch@v3
+      id: comment-branch
+
+    - uses: actions/checkout@v4
+      if: success()
       with:
-        ref: ${{ github.event_name == 'issue_comment' && format('refs/pull/{0}/head', github.event.issue.number) || '' }}
+        ref: ${{ steps.comment-branch.outputs.head_ref }}
+
+    - run: git rev-parse --abbrev-ref HEAD
+    - run: git rev-parse --verify HEAD
 
     - name: Show branch name
       run: git branch --show-current
