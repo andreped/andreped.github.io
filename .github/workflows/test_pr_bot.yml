@@ -3,10 +3,6 @@ name: Test PR Bot
 on:
   workflow_dispatch:
   issue_comment:
-permissions:
-  contents: read
-  issues: read
-  pull-requests: read
 
 jobs:
   test:
