@@ -18,7 +18,7 @@ jobs:
       id: comment-branch
 
     - uses: actions/checkout@v4
-      if: success()
+      if: ${{ github.event.issue.pull_request }}
       with:
         ref: ${{ steps.comment-branch.outputs.head_ref }}
 
