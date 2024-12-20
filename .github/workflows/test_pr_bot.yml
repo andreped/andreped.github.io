@@ -12,7 +12,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: xt0rted/pull-request-comment-branch@v3
+    - name: Add PR branch ability
+      if: ${{ github.event.issue.pull_request }}
+      uses: xt0rted/pull-request-comment-branch@v3
       id: comment-branch
 
     - uses: actions/checkout@v4
