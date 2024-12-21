@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="5; url=https://andreped.dev/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>André  Pedersen | Page not found</title>
+    <title>André  Pedersen | Lungs and Lobes Semantic Segmentation in Mediastinal CT Scans Using 3D Convolutional Neural Networks</title>
     <meta name="author" content="André  Pedersen" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Master's thesis by Kristin Schive Hjelde" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -31,7 +31,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://andreped.dev/404.html">
+    <link rel="canonical" href="https://andreped.dev/projects/4_hjelde2020_thesis/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -133,12 +133,37 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Lungs and Lobes Semantic Segmentation in Mediastinal CT Scans Using 3D Convolutional Neural Networks</h1>
+            <p class="post-description">Master's thesis by Kristin Schive Hjelde</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://andreped.dev/">here</a>.</p>
+            <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/hjelde2020lobe-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/hjelde2020lobe-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/hjelde2020lobe-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/hjelde2020lobe.png" title="">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Pulmonary CT image analysis is a vital part in the assessment and treatment planning of different lung diseases. The method often requires the lungs to be separated from the surrounding structures, a process known as lung segmentation. Fissures divide the lungs into smaller compartments known as lobes, with their own independent vessels and airways system. Some diseases develop only in one of these lobes, and some treatments are performed on a lobar level. It is thus necessary to also segment the lobes in many cases. Doing lungs and lobes segmentation by hand is a tedious and time-consuming process, requiring expert radiologists. A variety of different methods to automate the segmentation process have been proposed throughout the years, but many of them struggle on lungs with high amounts of abnormalities, which often is the case for diseased lungs.</p>
+
+<p>This thesis aims at contributing further towards the full automation of lung and lobe segmentation by investigating two state-of-the-art neural network architectures, and their ability to generate accurate segmentation models with short training and inference time. The two studied approaches are the 3D U-Net, and the relatively new PLS-Net. Both are 3D fully convolutional networks whereby the U-Net is more traditional with a large number of parameters while the PLS-Net is extremely lightweight in comparison. The two networks were tested for the lung segmentation task, using different combinations of deep learning frameworks (e.g., Tensorflow and PyTorch), training precision, batch sizes and input resolutions. In addition, the PLS-Net was trained and tested for the lobe segmentation task, together with a simple post-processing step.</p>
+
+<p>The results showed that using smaller input volumes with batch size 2 gave higher accuracy than using larger input volumes with batch size 1. PyTorch and TensorFlow gave equally good Dice scores on the lung segmentation task, and PyTorch gave better training performance, but was slower during inference. Using mixed precision over full precision reduced the memory footprint by 40%, without reducing the accuracy. The PLS-Net used 30% less memory than the U-Net for the same input data and batch size, with a reduction of 0.3% in Dice score. For the lobe segmentation task, the PLS-Net gave a Dice score of 92.6% before post-processing, and 92.9% after. The lobe segmentation model performed equally well on data from another data set and the data used for training, but struggled on samples containing abnormalities.</p>
+
+<p>Supervised by David Bouget, André Pedersen, and Ilangko Balasingham</p>
 
           </article>
 
