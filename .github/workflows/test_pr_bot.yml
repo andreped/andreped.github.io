@@ -20,7 +20,10 @@ jobs:
       run: |
         echo "CPU Usage: 45%" > output.txt
         echo "Memory Usage: 60%" >> output.txt
-        echo "Disk Usage: 70%" >> output.txt
+
+    - name: Produce some other stdout
+      run: |
+        echo -e "\nDisk Usage: 70%" >> output.txt
 
     - name: Read output
       id: read_output
