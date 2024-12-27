@@ -26,6 +26,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         ref: 'andreped-patch-2'
+        clean: false
 
     - name: Produce some other stdout
       if: ${{ github.event_name == 'issue_comment' }}
