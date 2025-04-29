@@ -1,0 +1,56 @@
+name: Test PR Bot
+
+on:
+  workflow_dispatch:
+  issue_comment:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event_name == 'issue_comment' && format('refs/pull/{0}/head', github.event.issue.number) || 'master' }}
+
+    - name: Show branch name
+      run: git branch --show-current
+
+    - name: Produce some stdout
+      run: |
+        echo "CPU Usage: 45%" > output.txt
+        echo "Memory Usage: 60%" >> output.txt
+
+    - name: Checkout main branch
+      if: ${{ github.event_name == 'issue_comment' }}
+      uses: actions/checkout@v4
+      with:
+        ref: 'andreped-patch-2'
+        clean: false
+
+    - name: Produce some other stdout
+      if: ${{ github.event_name == 'issue_comment' }}
+      run: |
+        echo -e "\nDisk Usage: 70%" >> output.txt
+
+    - name: Parse metrics stdout
+      if: ${{ github.event_name == 'issue_comment' }}
+      id: read_output
+      run: |
+        output=$(cat output.txt | base64 | tr -d '\n')
+        echo "stdout=$output" >> $GITHUB_OUTPUT
+      outputs:
+        stdout: ${{ steps.read_output.outputs.stdout }}
+
+    - name: Create comment with results
+      if: ${{ github.event_name == 'issue_comment' }}
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const output = Buffer.from('${{ steps.read_output.outputs.stdout }}', 'base64').toString('utf-8').trim();
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `${output}`
+          });
