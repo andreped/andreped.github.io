@@ -39,8 +39,6 @@ jobs:
       run: |
         output=$(cat output.txt | base64 | tr -d '\n')
         echo "stdout=$output" >> $GITHUB_OUTPUT
-      outputs:
-        stdout: ${{ steps.read_output.outputs.stdout }}
 
     - name: Create comment with results
       if: ${{ github.event_name == 'issue_comment' }}
