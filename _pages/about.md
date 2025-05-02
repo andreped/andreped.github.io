@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   address: >
     <p>Brattørkaia 17A</p>
     <p>7010 Trondheim</p>
