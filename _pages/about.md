@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a Senior Machine Learning Engineer at Sopra Steria. I have strong experience in using
+Hi! I'm a Senior AI Engineer at DIPS AS. I have strong experience in using
 artificial intelligence and image analysis techniques for various medical applications, aiming to
 develop solutions that can assist clinicians in their daily practice. Currently, my main focus is on
 using generative AI and large multimodal models to solve various problems in the industry.
