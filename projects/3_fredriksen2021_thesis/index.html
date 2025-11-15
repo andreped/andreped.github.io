@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="5; url=https://andreped.dev/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>André  Pedersen | Page not found</title>
+    <title>André  Pedersen | Pulmonary Tumor Segmentation Utilizing Mixed-Supervision in a Teacher-Student Framework</title>
     <meta name="author" content="André  Pedersen" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Master's thesis by Vemund Fredriksen and Svein Ole M. Svele" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -31,7 +31,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://andreped.dev/404.html">
+    <link rel="canonical" href="https://andreped.dev/projects/3_fredriksen2021_thesis/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -133,12 +133,47 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Pulmonary Tumor Segmentation Utilizing Mixed-Supervision in a Teacher-Student Framework</h1>
+            <p class="post-description">Master's thesis by Vemund Fredriksen and Svein Ole M. Svele</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://andreped.dev/">here</a>.</p>
+            <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/fredriksen2021teacherstudent-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/fredriksen2021teacherstudent-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/fredriksen2021teacherstudent-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/fredriksen2021teacherstudent.png" title="">
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Cancer is a leading cause of death in the developed world, and lung cancer is the most lethal. Clinical experts rely on advanced medical imaging techniques and visual inspection to detect lung tumors. Prognosis is highly dependent on the stage of cancer, and mortality can be reduced by early detection. Recent development in machine learning techniques shows promise for automating time-consuming tasks that are currently performed manually by trained experts.</p>
+
+<p>Lack of annotated data is one of the primary constraints in developing automatic methods for
+medical image segmentation tasks. Public datasets often contain different degree of annotations, if any. In an attempt to address some of these problems, we have investigated the potential of training deep neural networks that can learn from a larger set of less accurately annotated data, to improve performance on lung tumor segmentation. We implemented a framework, based on the recently emerging Teacher-Student design, to utilize bounding box annotated datasets to facilitated lung tumor segmentation learning.</p>
+
+<p>Our research shows that using a sufficiently large, less accurately annotated dataset, the Teacher-Student framework can improve segmentation and detection performance. We also demonstrate that our produced teacher may be used as a semi-automatic method to facilitate the labeling of medical images.</p>
+
+<p>Our best model, trained from only 48 human-annotated images and 991 teacher-annotated
+images (given bounding box supervision), reached a Dice Coefficient Score of 0.7156 on the
+MSD dataset, tested on nine images, which is on the state-of-the-art level. Another model
+trained under the same conditions, reached a perfect tumor-level F1 Score of 1.0 on the MSD
+dataset.</p>
+
+<p>Keywords: Lung Cancer, Deep Learning, Medical Image Segmentation, Mixed Supervision,
+Teacher-Student Framework</p>
+
+<p>Supervised by André Pedersen, Thomas Langø, Gabriel Kiss, and Frank Lindseth</p>
 
           </article>
 
