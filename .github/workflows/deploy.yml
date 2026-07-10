@@ -11,7 +11,7 @@ on:
       - main
   schedule:
     - cron: '0 0 * * *'
-  on_dispatch:
+  workflow_dispatch::
 
 jobs:
   deploy:
